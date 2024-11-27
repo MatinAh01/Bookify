@@ -1,6 +1,6 @@
 namespace Bookify.domain.Apartments
 {
-    public enum Amenities
+    public enum Amenitiy
     {
         WiFi = 1,
         AirConditioning = 2,

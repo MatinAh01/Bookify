@@ -17,15 +17,15 @@ namespace Bookify.domain.Apartments
         public static readonly Currency Usd = new("USD");
         public static readonly Currency Eur = new("EUR");
 
-        public static readonly IReadOnlyCollection<Currency> All = new[] 
-        { 
+        public static readonly IReadOnlyCollection<Currency> All = new[]
+        {
             Usd,
             Eur
         };
-        
+
         public static Currency FromeCode(string code)
         {
-            return All.FirstOrDefault(c => c.Code == code)??
+            return All.FirstOrDefault(c => c.Code == code) ??
                 throw new ApplicationException("the currency code invalid");
         }
     }
