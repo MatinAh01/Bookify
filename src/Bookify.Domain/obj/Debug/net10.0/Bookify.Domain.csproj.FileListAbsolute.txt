@@ -1,0 +1,4 @@
+C:\Users\Matin\Desktop\Bookify\src\Bookify.Domain\obj\Debug\net10.0\Bookify.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Matin\Desktop\Bookify\src\Bookify.Domain\obj\Debug\net10.0\Bookify.Domain.AssemblyInfoInputs.cache
+C:\Users\Matin\Desktop\Bookify\src\Bookify.Domain\obj\Debug\net10.0\Bookify.Domain.AssemblyInfo.cs
+C:\Users\Matin\Desktop\Bookify\src\Bookify.Domain\obj\Debug\net10.0\Bookify.Domain.csproj.CoreCompileInputs.cache
