@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Bookify.Domain.Apartments;
+namespace Bookify.Domain.Shared;
 
 public record Money(decimal Amount, Currency Currency)
 {
@@ -20,5 +20,5 @@ public record Money(decimal Amount, Currency Currency)
     public static Money Zero() => new(0, Currency.Zero);
     public static Money Zero(Currency currency) => new(0, currency);
 
-    public bool IsZero() => this == Money.Zero(Currency);
+    public bool IsZero() => this == Zero(Currency);
 }
