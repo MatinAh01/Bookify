@@ -1,0 +1,75 @@
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Ww][Ii][Nn]32/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+# Visual Studio cache/options directory
+.vs/
+
+# Visual Studio Code
+.vscode/
+.vscode-test/
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build folder
+[Bb]uild/
+
+# NuGet Packages
+*.nupkg
+*.snupkg
+*.nuget.props
+*.nuget.targets
+
+# NuGet package directory
+packages/
+.nupkg/
+
+# dotnet build/publish
+publish/
+PublishProfiles/
+
+# MSBuild Binary and Structured Log
+*.binlog
+
+# IDE-specific files
+*.sln.iml
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Local environment variables
+.env
+.env.local
+
+# Test Results
+TestResults/
+*.trx
+*.coverage
+
+# Rider
+.idea/
+.idea_modules/
+*.sln.iml
+out/
+
+# Cake & Wyam
+tools/
