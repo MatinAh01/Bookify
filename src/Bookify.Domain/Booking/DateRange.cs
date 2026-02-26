@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace Bookify.Domain.Booking;
 
-public class DateRange
+public record DateRange
 {
     public DateOnly Start { get; init; }
     public DateOnly End { get; init; }
