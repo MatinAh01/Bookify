@@ -7,13 +7,12 @@ namespace Bookify.Domain.Abstractions;
 
 public abstract class Entity
 {
-    public Guid Id { get; init; }
     private readonly List<IDomainEvent> _domainEvents = [];
-
     public Entity(Guid id)
     {
         Id = id;
     }
+    public Guid Id { get; init; }
 
     public IReadOnlyList<IDomainEvent> GetDomainEvents()
     {
@@ -25,7 +24,7 @@ public abstract class Entity
         _domainEvents.Clear();
     }
 
-    public void RaiseDomainEvents(IDomainEvent domainEvent)
+    protected void RaiseDomainEvent(IDomainEvent domainEvent)
     {
         _domainEvents.Add(domainEvent);
     }

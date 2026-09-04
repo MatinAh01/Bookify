@@ -1,6 +1,6 @@
-namespace Bookify.Domain.Booking;
+namespace Bookify.Domain.Bookings;
 
-public enum BookingStatus : byte
+public enum BookingStatus
 {
     Reserved = 1,
     Confirmed = 2,
