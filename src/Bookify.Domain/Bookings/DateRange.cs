@@ -4,11 +4,10 @@ public record DateRange
 {
     private DateRange()
     {
-        
     }
 
-    public DateOnly StartDate;
-    public DateOnly EndDate;
+    public DateOnly StartDate { get; private set; }
+    public DateOnly EndDate { get; private set; }
 
     public int LengthInDays => EndDate.DayNumber - StartDate.DayNumber;
 
